@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src=“javaScript.js”></script>
+</head>
+
+<body>
+    <h1>Sign up Form Example</h1>
+
+    <form name="form">
+        <table>
+
+            <tr>
+                <td><label>First, Last name*:</label></td>
+                <td><input required type="text" name="fname" id="fname"></td>
+                <td><input required type="text" name="lname" id="lname"></td>
+            </tr>
+
+            <tr>
+                <td><label for="orginization">Orginization:</label></td>
+                <td colspan="2"><input type="text" name="orginization" id="orginization"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email Address*:</label></td>
+                <td colspan="2"><input required type="email" name="email" id="email"></td>
+            </tr>
+
+            <tr>
+                <td><label for="wphone">Work Phone:</label></td>
+                <td colspan="2"><input type="tel" name="wphone" class="phone"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Home Phone:</label></td>
+                <td colspan="2"><input type="tel" name="hphone" class="phone"></td>
+            </tr>
+
+            <tr>
+                <td><label for="cphone">Cell Phone:</label></td>
+                <td colspan="2"><input type="tel" name="cphone" class="phone"></td>
+            </tr>
+
+            <tr>
+                <td><label for="fax">Fax:</label></td>
+                <td colspan="2"><input type="text" name="fax" class="phone"></td>
+            </tr>
+
+            <tr>
+                <td><label for="add1">Address 1*:</label></td>
+                <td colspan="2"><input required type="text" name="add1" class="addr"></td>
+            </tr>
+
+            <tr>
+                <td><label for="add2">Address 2:</label></td>
+                <td colspan="2"><input type="text" name="add2" class="addr"></td>
+            </tr>
+
+            <tr>
+                <td><label for="city">City*:</label></td>
+                <td colspan="2"><input type="text" name="city" class="phone"></td>
+            </tr>
+
+            <tr>
+                <td><label for="state">State Provence:</label></td>
+                <td colspan="2"><input type="text" name="state" class="phone"></td>
+            </tr>
+
+            <tr>
+                <td><label for="zip">Zip Postal Code*:</label></td>
+                <td><input required type="number" name="zip" id="zip"></td>
+            </tr>
+
+            <tr>
+                <td><label for="coun">Country:</label></td>
+                <td colspan="2"><input type="text" name="coun" id="coun"></td>
+            </tr>
+
+            <tr>
+                <td><label>*  required fields:</label></td>
+                <td colspan="2"><input type="submit" name="submit" id="submit" onclick="submit()"></td>
+                <td><input type="reset" name="forget" id="forget"></td>
+                <td><span id="red"></span></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+<html>

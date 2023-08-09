@@ -1,0 +1,44 @@
+#orginization, #email, .addr, #coun{
+    width: 100%;
+    height: 100%;
+}
+.phone{
+    width: 75%;
+    height: 100%;
+}
+#zip{
+    width: 35%;
+    height: 100%;
+}
+#forget{
+    color: blue;
+    background-color: transparent;
+    border-color: transparent;
+    text-decoration-line:underline;
+}
+form{
+    color: blueviolet;
+}
+#submit{
+    background-color: blueviolet;
+    color: antiquewhite;
+    border-radius: 10px;
+  padding: 5px 20px 5px 20px;
+}
+h1{
+    color: darkviolet;
+}
+body{
+    background-color:cornsilk;
+}
+input{
+    border-radius: 5px;;
+}
+#red{
+    visibility: hidden;
+}
+h3{
+    color: blueviolet;
+    text-align: center;
+    padding-top: 20%;
+}
